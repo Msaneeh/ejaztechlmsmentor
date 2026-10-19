@@ -1,6 +1,8 @@
 import { Routes, Route } from "react-router-dom";
-import Landing from "./pages/Landing";
 
+// I want to lazyload
+
+import Landing from "./pages/Landing";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Auth from "./pages/Auth";
 import Dashbord from "./pages/Dashbord";
